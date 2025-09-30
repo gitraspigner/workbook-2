@@ -48,20 +48,24 @@ public class AddressBuilder {
         StringBuilder address = new StringBuilder();
         if (isBilling) {
             address.append("Billing Address:\n");
+            address.append(street).append("\n");
+            address.append(city).append(", ").append(state).append(" ").append(zip).append("\n");
         } else {
             address.append("Shipping Address:\n");
+            address.append(street).append("\n");
+            address.append(city).append(", ").append(state).append(" ").append(zip);
         }
-        address.append(street).append("\n");
-        address.append(city).append(", ").append(state).append(" ").append(zip).append("\n");
         return address.toString();
     }
 
     public static String buildFullInfo(String name, String billingAddress,
                                                   String shippingAddress) {
+        //intelliJ suggests that fullInfo could be a String, but instead will continue
+        //to use StringBuilder for the sake of learning it being the focus of this assignment
         StringBuilder fullInfo = new StringBuilder();
         fullInfo.append(name).append("\n").append("\n");
         fullInfo.append(billingAddress).append("\n");
-        fullInfo.append(shippingAddress).append("\n");
+        fullInfo.append(shippingAddress);
         return fullInfo.toString();
     }
 }
