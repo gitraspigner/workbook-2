@@ -37,6 +37,7 @@ public class AddressBuilder {
         int shippingZip = scanner.nextInt();
         scanner.nextLine();
         System.out.println();
+
         //display full customer info for order
         System.out.println(buildFullInfo(fullName, buildAnAddress(true, billingStreet, billingCity,
                 billingState, billingZip), buildAnAddress(false, shippingStreet, shippingCity,
@@ -46,15 +47,10 @@ public class AddressBuilder {
     public static String buildAnAddress(boolean isBilling, String street, String city,
                                         String state, int zip) {
         StringBuilder address = new StringBuilder();
-        if (isBilling) {
-            address.append("Billing Address:\n");
-            address.append(street).append("\n");
-            address.append(city).append(", ").append(state).append(" ").append(zip).append("\n");
-        } else {
-            address.append("Shipping Address:\n");
-            address.append(street).append("\n");
-            address.append(city).append(", ").append(state).append(" ").append(zip);
-        }
+        address.append(isBilling ? "Billing Address:\n" : "Shipping Address:\n");
+        address.append(street).append("\n");
+        address.append(city).append(", ").append(state).append(" ").append(zip);
+        address.append(isBilling ? "\n" : "");
         return address.toString();
     }
 
