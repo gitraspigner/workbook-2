@@ -14,7 +14,7 @@ public class RollTheDice {
         int roll4Count = 0;
         int roll6Count = 0;
         int roll7Count = 0;
-        int sumOfDiceRolls = 0;
+        int sumOfDiceRolls;
         //roll 100 times
         for (int i = 0; i < 100; i++) {
             roll1 = dice.roll();
