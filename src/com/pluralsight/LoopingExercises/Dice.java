@@ -1,7 +1,7 @@
 package com.pluralsight.LoopingExercises;
 
 /**
- * *******Add program description here******
+ * Represents a six-sided die that can be rolled.
  *
  * @author Ravi Spigner
  */

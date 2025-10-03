@@ -1,7 +1,7 @@
 package com.pluralsight.LoopingExercises;
 
 /**
- * *******Add program description here******
+ * Plays a game of Craps (without any user input) and displays a result of 100 rolls.
  *
  * @author Ravi Spigner
  */
