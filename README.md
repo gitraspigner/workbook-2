@@ -11,7 +11,7 @@
 
 ### 📝 Description
 Contains a collection of my starter-level java exercise solutions from week 2. <br>
-The majority of the exercise writeups can be found [here](https://github.com/BrightBoost/learningjava) (given that the repo is still active) <br>
+Some of the exercise writeups can be found [here](https://github.com/BrightBoost/learningjava) (given that the repo is still active) <br>
 within the directory: **exercises \ week 2**. <br>
 The workbook (PDF) containing most of the exercises cannot be uploaded due to Pluralsight ownership rights. <br>
 
@@ -44,4 +44,4 @@ OpenAI. (2025). ChatGPT (Oct 1 version) [Large language model]. https://chatgpt.
 
 *I have to give credit where it's due, right?* <br>
 
-**Last Edited: 10/07/2025**
+**Last Edited: 10/08/2025**
