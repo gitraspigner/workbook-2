@@ -11,7 +11,7 @@
 
 ### 📝 Description
 Contains a collection of my starter-level java exercise solutions from week 2. <br>
-Some of the exercise writeups can be found [here](https://github.com/BrightBoost/learningjava) (given that the repo is still active) <br>
+Some of the exercise writeups can be found within the instructor's repo page [here](https://github.com/BrightBoost/learningjava) (given that the repo is still active) <br>
 within the directory: **exercises \ week 2**. <br>
 The workbook (PDF) containing most of the exercises cannot be uploaded due to Pluralsight ownership rights. <br>
 
