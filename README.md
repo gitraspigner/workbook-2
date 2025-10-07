@@ -7,7 +7,7 @@
 
 | Active/Inactive | Active Dates |
 | --- | --- |
-| ![Status](https://img.shields.io/badge/status-inactive-lightgrey) | 9/29/2025 - 10/04/2025|
+| ![Status](https://img.shields.io/badge/status-inactive-lightgrey) | 09/29/2025 - 10/04/2025|
 
 ### 📝 Description
 Contains a collection of my starter-level java exercise solutions from week 2. <br>
