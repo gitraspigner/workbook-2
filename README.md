@@ -31,12 +31,12 @@ The workbook (PDF) containing most of the exercises cannot be uploaded due to Pl
 [Click Here](https://github.com/gitraspigner/workbook-2/commits/master)
 
 ### 💭 My Thoughts
--Much like last week, this was a good recap on different classes in Java. I found it to be easier than the week before this (located in my repo: workbook-1). <br> 
+- Much like last week, this was a good recap on different classes in Java. I found it to be easier than the week before this (located in my repo: workbook-1). <br> 
 I do think this was a good refresher on the syntax used when accessing different methods within classes like String and Stringbuilder. <br>
--There was something important that I had been doing which was deleting the last empty line of my Java files. I thought this led to cleaner code. <br>
+- There was something important that I had been doing which was deleting the last empty line of my Java files. I thought this led to cleaner code. <br>
 As it turns out, this can lead to some errors when your code is run later, because some programs that will run your code are expecting a newline character at the end of your file.<br>
 This was something important I noticed, which I'll need to remember for all future Java programs I write. <br>
-- Also, reviewing random number generation was good too, since I forgot/kept forgetting specifically how to do that, how Math.Random() works, and what you'd need to provide in order to get the proper number range you want. <br> An exercise we did related to this which I found useful to have a general format for random integers can be found in my repo directory here: **workbook-2/src/com/pluralsight/LoopingExercises/Dice.java** and here: **workbook-2/src/com/pluralsight/LoopingExercises/RollTheDice.java**.
+- Also, reviewing random number generation was good too, since I forgot/kept forgetting specifically how to do that, how Math.Random() works, and what you'd need to provide in your random number generation statement in order to get the proper number range you want. <br> An exercise we did related to this which I found useful to have a general format for random integers (even more useful to practice since Math.Random() returns doubles) can be found in my repo directory here: **workbook-2/src/com/pluralsight/LoopingExercises/Dice.java** and here: **workbook-2/src/com/pluralsight/LoopingExercises/RollTheDice.java**.
 
 #### 🔖 Citation
 I wrote this README.md, but I did indeed use ChatGPT to give my initial framework and to learn markdown formatting. Therefore here is an APA Style Citation for it:  <br>
