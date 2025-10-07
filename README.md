@@ -36,6 +36,7 @@ I do think this was a good refresher on the syntax used when accessing different
 There was something important that I had been doing which was deleting the last empty line of my Java files. I thought this led to cleaner code. <br>
 As it turns out, this can lead to some errors when your code is run later, because some programs that will run your code are expecting a newline character at the end of your file.<br>
 This was something important I noticed, which I'll need to remember for all future Java programs I write. <br>
+Reviewing random number generation was good too, which can be found in my repo directory here: **workbook-2/src/com/pluralsight/LoopingExercises/Dice.java**.
 
 #### 🔖 Citation
 I wrote this README.md, but I did indeed use ChatGPT to give my initial framework and to learn markdown formatting. Therefore here is an APA Style Citation for it:  <br>
