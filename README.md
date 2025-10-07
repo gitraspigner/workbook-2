@@ -35,7 +35,7 @@ Much like last week, this was a good recap on different classes in Java. I found
 I do think this was a good refresher on the syntax used when accessing different methods within classes like String and Stringbuilder. <br>
 There was something important that I had been doing which was deleting the last empty line of my Java files. I thought this led to cleaner code. <br>
 As it turns out, this can lead to some errors when your code is run later, because some programs that will run your code are expecting a newline character at the end of your file.<br>
-This will be important to remember for the future. <br>
+This was something important I noticed, which I'll need to remember for all future Java programs I write. <br>
 
 #### 🔖 Citation
 I wrote this README.md, but I did indeed use ChatGPT to give my initial framework and to learn markdown formatting. Therefore here is an APA Style Citation for it:  <br>
